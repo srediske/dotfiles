@@ -1,0 +1,7 @@
+channels:
+  - conda-forge
+  - defaults
+  
+show_channel_urls: True
+
+update_dependencies: False
