@@ -125,6 +125,8 @@ alias pypath='python -c "import sys; [print(p) for p in sys.path]"'
 alias locpy='find . -name "*.py" | xargs wc -l'
 alias locxacro='find . -name "*.xacro" | xargs wc -l'
 alias locmd='find . -name "*.md" | xargs wc -l'
+alias locrs='find . -name "*.rs" | xargs wc -l'
+alias open='xdg-open'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
